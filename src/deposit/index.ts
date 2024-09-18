@@ -1,4 +1,4 @@
-import { assert } from '@scrow/sdk/util'
+import { assert } from '@bitescrow/client-sdk/util'
 
 import useSWR, { SWRConfiguration, useSWRConfig } from 'swr'
 
@@ -6,12 +6,12 @@ import {
   DepositData,
   DepositDataResponse,
   DepositListResponse,
-} from '@scrow/sdk'
+} from '@bitescrow/client-sdk'
 
 import {
   EscrowClient,
   EscrowSigner
-} from '@scrow/sdk/client'
+} from '@bitescrow/client-sdk/client'
 
 export function useDeposit (
   client   : EscrowClient,

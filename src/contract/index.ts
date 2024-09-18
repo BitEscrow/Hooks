@@ -1,4 +1,4 @@
-import { assert } from '@scrow/sdk/util'
+import { assert } from '@bitescrow/client-sdk/util'
 
 import useSWR, { SWRConfiguration, useSWRConfig } from 'swr'
 
@@ -8,12 +8,12 @@ import {
   ContractListResponse,
   FundListResponse,
   FundingData
-} from '@scrow/sdk'
+} from '@bitescrow/client-sdk'
 
 import {
   EscrowClient,
   EscrowSigner
-} from '@scrow/sdk/client'
+} from '@bitescrow/client-sdk/client'
 
 export function useContract (
   client   : EscrowClient,

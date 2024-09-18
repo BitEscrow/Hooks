@@ -8,7 +8,7 @@ import {
   MemberData,
   RolePolicy,
   RoleTemplate
-} from '@scrow/sdk/client'
+} from '@bitescrow/client-sdk/client'
 
 import {
   CoreSchema,
@@ -17,7 +17,7 @@ import {
   ProgramEntry,
   ProposalData,
   ScheduleEntry
-} from '@scrow/sdk/core'
+} from '@bitescrow/client-sdk/core'
 
 export class DraftStore {
 

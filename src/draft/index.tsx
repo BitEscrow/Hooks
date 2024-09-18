@@ -1,4 +1,4 @@
-import { DraftSession } from '@scrow/sdk/client'
+import { DraftSession } from '@bitescrow/client-sdk/client'
 import { create_store } from '@cmdcode/use-store'
 import { DraftStore }   from './class.js'
 

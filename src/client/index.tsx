@@ -1,4 +1,4 @@
-import { ClientOptions, EscrowClient } from '@scrow/sdk/client'
+import { ClientOptions, EscrowClient } from '@bitescrow/client-sdk/client'
 
 import {
   createContext,

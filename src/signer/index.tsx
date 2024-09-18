@@ -1,4 +1,4 @@
-import { SignerOptions } from '@scrow/sdk/client'
+import { SignerOptions } from '@bitescrow/client-sdk/client'
 
 import { create_signer_store } from './signer.js'
 import { SignerStoreAPI }      from './types.js'

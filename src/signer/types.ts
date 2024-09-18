@@ -3,7 +3,7 @@ import { create_signer_store } from './signer.js'
 import {
   SignerOptions,
   EscrowSigner
-} from '@scrow/sdk/client'
+} from '@bitescrow/client-sdk/client'
 
 export type SignerStoreAPI = ReturnType<typeof create_signer_store>
 

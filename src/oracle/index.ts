@@ -1,11 +1,11 @@
-import { EscrowClient } from '@scrow/sdk/client'
-import { assert }       from '@scrow/sdk/util'
+import { EscrowClient } from '@bitescrow/client-sdk/client'
+import { assert }       from '@bitescrow/client-sdk/util'
 
 import {
   OracleFeeEstimate,
   OracleUtxoData,
   OracleTxData
-} from '@scrow/sdk'
+} from '@bitescrow/client-sdk'
 
 import useSWR, { SWRConfiguration } from 'swr'
 

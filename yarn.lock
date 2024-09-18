@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@bitescrow/client-sdk@^0.15.7":
+  version "0.15.7"
+  resolved "https://npm.pkg.github.com/download/@bitescrow/client-sdk/0.15.7/34d9593fcff18f6a603ce88f482c0f52bb4b2eeb#34d9593fcff18f6a603ce88f482c0f52bb4b2eeb"
+  integrity sha512-yBYGkwp6AcYeBfhZWmlJH0obDWzmsuuabbKjL1yGC9KUWOqDco9gSM3yTJC3oVkKJAVDR2P6J7bgf96kWRq8bQ==
+  dependencies:
+    "@cmdcode/buff" "2.2.5"
+    "@cmdcode/crypto-tools" "2.7.6"
+    "@cmdcode/musig2" "2.4.3"
+    "@cmdcode/signer" "1.4.7"
+    "@scrow/tapscript" "2.2.4"
+    zod "^3.23.8"
+
 "@cmdcode/buff@2.2.5", "@cmdcode/buff@^2.2.5":
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@cmdcode/buff/-/buff-2.2.5.tgz#9eea735b5689e4593234e9559fdb35ed881ddcda"
@@ -63,19 +75,16 @@
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.4.0.tgz#45814aa329f30e4fe0ba49426f49dfccdd066426"
   integrity sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==
 
-"@scrow/sdk@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@scrow/sdk/-/sdk-0.15.0.tgz#3c1b5bbcfbac5901218c53031a4257dd12c451b2"
-  integrity sha512-gHgjMSp0/52gJ35/fwmz4z4/d8F7Hk+7ZvTlw0fgHsKoW2b4p5DDKYEUzlsCkdqDg0+PkWBg3LcdN0xfXdshJA==
+"@scrow/tapscript@2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@scrow/tapscript/-/tapscript-2.2.4.tgz#153486c882015ef7ea70d085b3e1bb6d4f3ee7c1"
+  integrity sha512-NbPAF/h+r6W4bH/hPVBRV3vNIw5846lpUK1BZ1Bdr7TgPa5r5cyqxtmfPvQ7BcGRmGZlqSmdQG9iC/Gfiz5eUw==
   dependencies:
-    "@cmdcode/buff" "2.2.5"
-    "@cmdcode/crypto-tools" "2.7.6"
-    "@cmdcode/musig2" "2.4.3"
-    "@cmdcode/signer" "1.4.7"
-    "@scrow/tapscript" "2.2.2"
+    "@cmdcode/buff" "^2.2.5"
+    "@cmdcode/crypto-tools" "^2.7.6"
     zod "^3.22.4"
 
-"@scrow/tapscript@2.2.2", "@scrow/tapscript@^2.2.2":
+"@scrow/tapscript@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@scrow/tapscript/-/tapscript-2.2.2.tgz#0958a9ad5009154cebea6b5b5872c2e0d269e898"
   integrity sha512-POtV7oAZL+vPUAe4nlM2xVpRtttbcHSRdu4eJ8Emh77fk+wzPkrOXlBKRicHgyLafMLkJ3tVXNoGzCRQ6LTzsg==
@@ -185,7 +194,7 @@ use-sync-external-store@^1.2.0:
   resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.2.tgz#c3b6390f3a30eba13200d2302dcdf1e7b57b2ef9"
   integrity sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==
 
-zod@^3.22.4:
+zod@^3.22.4, zod@^3.23.8:
   version "3.23.8"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
   integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==

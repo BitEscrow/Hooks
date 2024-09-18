@@ -6,7 +6,7 @@ import { SignerStore }  from './types.js'
 import {
   SignerOptions,
   EscrowSigner
-} from '@scrow/sdk/client'
+} from '@bitescrow/client-sdk/client'
 
 export function create_signer_store (
   defaults  : SignerStore,

@@ -1,11 +1,11 @@
-import { assert } from '@scrow/sdk/util'
+import { assert } from '@bitescrow/client-sdk/util'
 
 import useSWR, { SWRConfiguration, useSWRConfig } from 'swr'
 
 import {
   EscrowClient,
   EscrowSigner
-} from '@scrow/sdk/client'
+} from '@bitescrow/client-sdk/client'
 
 import {
   MachineData,
@@ -13,7 +13,7 @@ import {
   VMListResponse,
   WitnessListResponse,
   WitnessReceipt
-} from '@scrow/sdk'
+} from '@bitescrow/client-sdk'
 
 export function useMachineData (
   client   : EscrowClient,
