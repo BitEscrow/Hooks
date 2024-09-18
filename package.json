@@ -1,6 +1,6 @@
 {
-  "name": "@scrow/hooks",
-  "version": "0.5.2",
+  "name": "@bitescrow/hooks",
+  "version": "0.5.3",
   "description": "React hooks library for BitEscrow SDK.",
   "main": "index.js",
   "author": "Christopher Scott",
@@ -10,8 +10,8 @@
     "url": "https://github.com/bitescrow/hooks.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   },
   "files": [
     "README.md",
@@ -63,10 +63,10 @@
     "scratch": "yarn load test/scratch.ts"
   },
   "dependencies": {
+    "@bitescrow/client-sdk": "^0.15.7",
     "@cmdcode/buff": "^2.2.5",
     "@cmdcode/signer": "^1.4.7",
     "@cmdcode/use-store": "^1.1.2",
-    "@scrow/sdk": "^0.15.1",
     "swr": "^2.2.5"
   },
   "peerDependencies": {
